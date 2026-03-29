@@ -6,10 +6,9 @@ def count():
     yield 3
     yield 4
     yield 100
-
-#example2
 for i in count():
     print(i)
+
 #example2
 def count(n):
     i = 1
