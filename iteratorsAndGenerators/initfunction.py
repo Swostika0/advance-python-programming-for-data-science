@@ -1,10 +1,10 @@
 #actually __init__ is a constructor method
-class Student:
+class const:
     def __init__(self):
         print("Object created")
-s1 = Student()
-print(s1)
-
+c1 = const()
+print(c1)
+#example2
 class Student:
     def __init__(self, name,roll):
         self.name = name
